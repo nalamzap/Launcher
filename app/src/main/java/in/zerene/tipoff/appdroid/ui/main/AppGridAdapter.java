@@ -1,8 +1,6 @@
-package in.tipoff.appdroid.ui.main;
+package in.zerene.tipoff.appdroid.ui.main;
 
 import android.content.Context;
-import android.content.Intent;
-import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,7 +12,7 @@ import com.google.android.material.snackbar.Snackbar;
 
 import java.util.List;
 
-import in.tipoff.appdroid.R;
+import in.zerene.tipoff.R;
 
 public class AppGridAdapter extends BaseAdapter {
 

@@ -1,4 +1,4 @@
-package in.tipoff.appdroid.ui.main;
+package in.zerene.tipoff.appdroid.ui.main;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -11,9 +11,8 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
-import androidx.lifecycle.ViewModelProviders;
 
-import in.tipoff.appdroid.R;
+import in.zerene.tipoff.R;
 
 /**
  * A placeholder fragment containing a simple view.

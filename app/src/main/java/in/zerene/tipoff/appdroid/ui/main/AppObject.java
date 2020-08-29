@@ -1,4 +1,4 @@
-package in.tipoff.appdroid.ui.main;
+package in.zerene.tipoff.appdroid.ui.main;
 
 import android.graphics.drawable.Drawable;
 
