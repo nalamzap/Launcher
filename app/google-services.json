@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "285166571428",
+    "firebase_url": "https://launcher-nalamzap.firebaseio.com",
+    "project_id": "launcher-nalamzap",
+    "storage_bucket": "launcher-nalamzap.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285166571428:android:8a3fda8290459840167b31",
+        "android_client_info": {
+          "package_name": "in.nalamzap.launcher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "285166571428-igdcslgo6u8bo7iu0j3jpsgi1fjbausf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcFp6323FjrDsH9rVzIdsjj5uyYblxCok"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "285166571428-igdcslgo6u8bo7iu0j3jpsgi1fjbausf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

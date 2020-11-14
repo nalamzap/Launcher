@@ -1,4 +1,4 @@
-package in.zerene.tipoff.appdroid.ui.main;
+package in.nalamzap.launcher.appdroid.ui.main;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -12,7 +12,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-import in.zerene.tipoff.R;
+import in.nalamzap.launcher.R;
 
 /**
  * A placeholder fragment containing a simple view.

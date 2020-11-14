@@ -1,4 +1,4 @@
-package in.zerene.tipoff.appdroid.ui.main;
+package in.nalamzap.launcher.appdroid.ui.main;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,11 +8,9 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.google.android.material.snackbar.Snackbar;
-
 import java.util.List;
 
-import in.zerene.tipoff.R;
+import in.nalamzap.launcher.R;
 
 public class AppGridAdapter extends BaseAdapter {
 
@@ -53,27 +51,7 @@ public class AppGridAdapter extends BaseAdapter {
         ImageView icon = v.findViewById(R.id.imgAppItem);
         icon.setImageDrawable(list.get(i).getIcon());
 
-        final Snackbar snackbar = Snackbar.make(viewGroup,"",Snackbar.LENGTH_LONG);
-        /*v.setOnLongClickListener(new View.OnLongClickListener() {
-            @Override
-            public boolean onLongClick(View view) {
-                snackbar.setAction("app info", new View.OnClickListener() {
-                            @Override
-                            public void onClick(View view) {
-                                startApplicationDetailsActivity(list.get(i).getPackageName());
-                            }
-                        })
-                        *//*
-                        .setAction("dismiss", new View.OnClickListener() {
-                            @Override
-                            public void onClick(View view) {
-                                snackbar.dismiss();
-                            }
-                        })*//*
-                .show();
-                return true;
-            }
-        });*/
+
 
         return v;
     }

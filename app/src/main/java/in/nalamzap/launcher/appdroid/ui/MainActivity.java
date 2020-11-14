@@ -1,4 +1,4 @@
-package in.zerene.tipoff.appdroid.ui;
+package in.nalamzap.launcher.appdroid.ui;
 
 import android.os.Bundle;
 
@@ -10,8 +10,8 @@ import androidx.viewpager2.widget.ViewPager2;
 import android.view.View;
 import android.widget.ImageView;
 
-import in.zerene.tipoff.R;
-import in.zerene.tipoff.appdroid.ui.main.SectionsPagerAdapter;
+import in.nalamzap.launcher.R;
+import in.nalamzap.launcher.appdroid.ui.main.SectionsPagerAdapter;
 
 public class MainActivity extends AppCompatActivity {
 

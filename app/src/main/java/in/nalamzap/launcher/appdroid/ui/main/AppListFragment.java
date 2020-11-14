@@ -1,4 +1,4 @@
-package in.zerene.tipoff.appdroid.ui.main;
+package in.nalamzap.launcher.appdroid.ui.main;
 
 import android.content.Intent;
 import android.content.pm.ResolveInfo;
@@ -22,7 +22,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import in.zerene.tipoff.R;
+import in.nalamzap.launcher.R;
 
 import static android.app.Activity.RESULT_FIRST_USER;
 import static android.app.Activity.RESULT_OK;
@@ -136,12 +136,12 @@ public class AppListFragment extends Fragment {
         Intent intent = new Intent(Intent.ACTION_MAIN,null);
         intent.addCategory(Intent.CATEGORY_LAUNCHER);
 
-        List<ResolveInfo> untreatedAppList = getContext().getApplicationContext().getPackageManager().queryIntentActivities(intent,0);
+        List<ResolveInfo> appPkgList = getContext().getApplicationContext().getPackageManager().queryIntentActivities(intent,0);
 
-        for(ResolveInfo untreatedApp : untreatedAppList){
-            AppObject appObject = new AppObject(untreatedApp.activityInfo.loadLabel(getContext().getApplicationContext().getPackageManager()).toString(),
-                    untreatedApp.activityInfo.packageName,
-                    untreatedApp.activityInfo.loadIcon(getContext().getApplicationContext().getPackageManager()));
+        for(ResolveInfo appPkg : appPkgList){
+            AppObject appObject = new AppObject(appPkg.activityInfo.loadLabel(getContext().getApplicationContext().getPackageManager()).toString(),
+                    appPkg.activityInfo.packageName,
+                    appPkg.activityInfo.loadIcon(getContext().getApplicationContext().getPackageManager()));
             if(!list.contains(appObject))list.add(appObject);
         }
 

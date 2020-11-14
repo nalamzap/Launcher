@@ -1,4 +1,4 @@
-package in.zerene.tipoff.appdroid.ui.main;
+package in.nalamzap.launcher.appdroid.ui.main;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -10,7 +10,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.lifecycle.Lifecycle;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 
-import in.zerene.tipoff.R;
+import in.nalamzap.launcher.R;
 
 /**
  * A [FragmentPagerAdapter] that returns a fragment corresponding to

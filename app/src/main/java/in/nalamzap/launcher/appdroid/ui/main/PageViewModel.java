@@ -1,4 +1,4 @@
-package in.zerene.tipoff.appdroid.ui.main;
+package in.nalamzap.launcher.appdroid.ui.main;
 
 import androidx.arch.core.util.Function;
 import androidx.lifecycle.LiveData;
